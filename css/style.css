@@ -1,0 +1,54 @@
+body{
+  font-family: Helvetica;
+  font-size: 12pt;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  padding: 10px;
+  border-radius: 2px;
+  background: #ccc;
+  margin: 10px;
+  position: relative;
+}
+
+ul li.done-task {
+  background: #eee;
+  color: #ccc;
+}
+
+span.done {
+  padding: 5px;
+  border-radius: 2px;
+  background: #333;
+  color: #fff;
+  
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  
+  cursor: pointer;
+}
+
+span.edit {
+  padding: 5px;
+  border-radius: 2px;
+  background: #090;
+  color: #fff;
+  
+  cursor: pointer;
+}
+
+span.delete {
+  padding: 5px;
+  border-radius: 2px;
+  background: #900;
+  color: #fff;
+  
+  cursor: pointer;
+}
